@@ -1,0 +1,237 @@
+ *{
+    margin: 0px;
+ }
+ body{
+    background-color: #e0e0e0;
+} 
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px;
+    flex-wrap: wrap;
+    height: 80px;
+}
+
+.menu-content{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.menu-content-button{
+    margin-left: 20px;
+    background: none;
+    border: none;
+    background-color: rgba(117, 191, 122, 1);
+    border-radius: 6px;
+    padding: 7px 15px 7px 15px;
+    color: white;
+}
+.menu-icon{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .menu a {display: none;}
+    .menu button{display: none;}
+    .menu a.menu-icon {
+      float: right;
+      display: block;
+    }
+  }
+.hero-section{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    
+}
+.hero-content{
+    width: 500px;
+
+}
+.hero-content>h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+.hero-section>p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+.hero-button{
+    display: flex;
+    justify-content: start;
+}
+.hero-download{
+    background: transparent;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 10px 20px;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+.email-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    background-color: rgba(117, 191, 122, 1);
+    border-radius: 6px ;
+    margin: 10px 20px 10px 20px;
+    flex-wrap: wrap;
+    height: 130px;
+
+  
+}
+.email-text{
+    
+    color: white;
+    width: 150px;
+    background-color:  rgba(117, 191, 122, 1);;
+    
+}
+.email-text>p{
+    background-color: transparent;
+}
+.email-input{
+    display: flex;
+}
+.email-input>input{
+    padding: 10px;
+    border: none;
+    border-radius: 4PX;
+    margin-left: 10px;
+}
+.email-input>button{
+    background: transparent;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.work-section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.work-section>h1>span{
+    color: rgba(117, 191, 122, 1);
+
+}
+.work-section>p{
+    width: 400px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.working-section{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding:30px
+   
+}
+
+.working-section-1{
+    margin: 5px;
+    width: 180px;
+
+}
+.circle{
+    background-image: url(circle.png);
+    background-repeat: no-repeat;
+    height: 70px;
+    position: relative;
+   
+}
+.circle>h1{
+    
+    position: absolute;
+    top: 10px;
+    left: 24px;
+    color: rgba(117, 191, 122, 1);
+
+    
+}
+.working-section-2{
+    margin: 5px;
+    width: 400px;
+    
+}
+
+.working-section-circle{
+    background-color: rgba(117, 191, 122, 1);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-right: 100px;
+    position: relative;
+}
+.working-section-circle>img{
+
+    position: absolute;
+    height: 460px;
+    left: 80px;
+    top: -40px;
+}
+.working-section-3{
+    margin: 5px;
+    width: 200px;
+    
+}
+.cards-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header>h1>span{
+    color: rgba(117, 191, 122, 1);
+}
+.card-values{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);  
+    padding-left: 20px;
+    padding-right: 20px; 
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+.card-text-header{
+    display: flex;
+    
+    align-items: center;
+}
+.card-text-header>h1{
+    color: rgba(117, 191, 122, 1);
+    font-size: 60px;
+}
+.card-text-header>h2{
+    width: 170px;
+    margin-left: 10px;
+}
+.card-text-para{
+    width: 300px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    background-color: white;
+    height: 300px;
+}
+.footer-button{
+    background-color: black;
+    border: none;
+    padding: 7px 15px 7px 15px;
+    color: white;
+}

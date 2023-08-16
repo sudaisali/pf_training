@@ -95,6 +95,7 @@ header{
 }
 .email-input{
     display: flex;
+    
 }
 .email-input>input{
     padding: 10px;
@@ -141,7 +142,7 @@ header{
 
 }
 .circle{
-    background-image: url(circle.png);
+    background-image: url(./images/circle.png);
     background-repeat: no-repeat;
     height: 70px;
     position: relative;

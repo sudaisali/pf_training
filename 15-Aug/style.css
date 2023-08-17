@@ -9,7 +9,8 @@ header{
     justify-content: space-between;
     margin: 35px;
     flex-wrap: wrap;
-    height: 80px;
+   margin: 0px;
+   padding: 30px;
 }
 
 .menu-content{
